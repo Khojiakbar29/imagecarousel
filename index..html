@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Images Carousel</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="image fade">
+            <img src="/imgs/1.png" alt="First" width="100%">
+        </div>
+
+        <div class="image fade">
+            <img src="/imgs/2.png" alt="Second" width="100%">
+        </div>
+
+        <div class="image fade">
+            <img src="/imgs/3.png" alt="Third" width="100%">
+        </div>
+
+        <div class="image fade">
+            <img src="/imgs/4.png" alt="Fourth" width="100%">
+        </div>
+
+        <div class="image fade">
+            <img src="/imgs/5.png" alt="Fifth" width="100%">
+        </div>
+
+        <div class="image fade">
+            <img src="/imgs/6.png" alt="Sixth" width="100%">
+        </div>
+
+        <div class="image fade">
+            <img src="/imgs/7.png" alt="Seventh" width="100%">
+        </div>
+
+        <div class="image fade">
+            <img src="/imgs/8.png" alt="Eightth" width="100%">
+        </div>
+
+        
+        <i id="prev" onclick="show_image(-1)" class="fa-solid fa-angle-left"></i>
+        <i id="next" onclick="show_image(1)" class="fa-solid fa-angle-right"></i>
+        
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
